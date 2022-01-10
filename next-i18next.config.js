@@ -8,5 +8,5 @@ module.exports = {
     localePath: path.resolve('./i18n'),
     defaultNS: 'index',
     // for dev envrionment
-    reloadOnPrerender: true
+    // reloadOnPrerender: true
   }

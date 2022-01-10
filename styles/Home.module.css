@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     min-height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -28,7 +29,7 @@
 }
 
 .headline {
-    margin: 4rem 2rem 10rem 2rem;
+    margin: 4rem 2rem;
 }
 
 .headline h1 {
@@ -45,7 +46,7 @@
     width: 100%;
     font-weight: 700;
     color: #fff;
-    margin-top: 2srem;
+    margin-top: 3rem;
 	font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -70,7 +71,7 @@
 
 @media (min-width:641px) {
     .headline {
-        margin: 6rem 8rem 15rem 8rem;
+        margin: 6rem 8rem;
     }
 
     .headline h1 {
@@ -81,7 +82,7 @@
     .headline p{
         font-size: 1.875rem;
         line-height: 2.25rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 
     .headline input {

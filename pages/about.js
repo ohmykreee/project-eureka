@@ -5,6 +5,6 @@ import { siteConf } from '../site-config'
 
 export default function About() {
     return (
-        <div>关于</div>
+        <div style={{color: '#fff'}}>Work in progress, stay tuned!</div>
     )
 }

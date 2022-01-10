@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;700&family=Noto+Serif+SC:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 html{
   --base-color: rgb(255, 100, 20);
@@ -18,4 +19,50 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  font-family: 'IBM Plex Mono', 'Noto Serif SC', 'monospace', 'serif';
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.navbar {
+  position: fixed;
+  right: 1rem;
+  bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--base-color);
+  color: #fff;
+}
+
+.material-icons {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.navbar_current {
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+  font-weight: 400;
+	font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width:641px) {
+  .footer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }

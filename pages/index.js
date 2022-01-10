@@ -1,7 +1,4 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { siteConf } from '../site-config.js'
-import Link from 'next/link'
 import React from 'react'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
