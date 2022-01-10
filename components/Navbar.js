@@ -12,7 +12,7 @@ export const Navbar = () => {
   return(
     <div className='navbar' data-html2canvas-ignore>
       {/* <span className='navbar_current'>{t(currPage[0].name)}</span> */}
-      <Link href={router.pathname} locale={router.locale === 'en-US' ? 'zh-CN' : 'en-US'}><span className="material-icons">translate</span></Link>
+      <Link href={router.pathname} locale={router.locale === 'en' ? 'zh' : 'en'}><span className="material-icons">translate</span></Link>
     </div>
   )
 }
